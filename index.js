@@ -31,6 +31,5 @@ function jibberish() {
 		array[foo] = bar;
 	}
 	array=array.join(" ");
-	console.log(array)
 	document.getElementById("newScramble").innerHTML = array
 };
